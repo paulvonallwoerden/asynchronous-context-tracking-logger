@@ -1,6 +1,6 @@
 # Asynchronous Context Tracking Logger
 
-Proof of concept to ease the use of child loggers in NestJs using
+Proof of concept to ease the use of child loggers in [NestJs](https://docs.nestjs.com/) using
 [asynchronous context tracking](https://nodejs.org/api/async_context.html).
 
 ## Example
