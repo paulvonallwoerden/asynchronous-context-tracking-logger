@@ -72,4 +72,5 @@ class CatService {
 
 The package `nestjs-pino` already uses `AsyncLocalStorage`. Therefore, much of the work is already done for us here.
 This example only really adds `withLogCtx` to show how easy the usage can be. However, most other loggers should
-be simple to be ported to use `AsyncLocalStorage`. Refer to the source code of `nestjs-pino` for details.
+be simple to be ported to use `AsyncLocalStorage`. Refer to the
+[source code of `nestjs-pino`](https://github.com/iamolegga/nestjs-pino/blob/master/src/storage.ts) for details.
